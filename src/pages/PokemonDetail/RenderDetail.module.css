@@ -1,0 +1,132 @@
+.WrapperDetail{
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.HeaderDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderDetail h2{
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.HeaderDetail span{
+    font-weight: normal;
+    font-size: 20px;
+    color: #4B5563;
+}
+
+.PokemonInfomations{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+@media screen and (max-width: 600px) {
+    .PokemonInfomations{
+        flex-direction: column !important;
+        height: fit-content !important;
+    }
+}
+.PokemonStats{
+    flex: 5;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.PokemonStats .PokemonImage{
+    height: 340px;
+    min-height: 340px;
+    min-width: 340px;
+    background-color: #f2f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.PokemonStats .PokemonImage img{
+    height: 100%;   
+    object-position: center;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.PokemonStats .Stats{
+    height: 340px;
+    min-height: 340px;
+    min-width: 340px;
+    background-color: #fff;
+    background-color: rgb(164, 164, 164);
+}
+.PokemonStats .Stats p{
+    height: 30px;
+    margin: 0;
+}
+.InfomationSection{
+    flex: 7;
+    background-color: #f2f2f2f2;
+    height: 700px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+
+}
+.info{
+    margin: 15px 0;
+}
+.InfomationSection .abilities{
+    display: flex;
+    align-items: center;
+}
+.InfomationSection .ability{
+    font-size: 14px;
+    padding:4px 10px;
+    background-color: #95c1feba;
+    margin: 5px;
+    display: inline;
+}
+.InfomationSection .types{
+    display: flex;
+    align-items: center;
+}
+.InfomationSection .cardType{
+    font-size: 14px;
+    padding:4px 10px;
+    margin: 5px;
+    border: 1px solid #333;
+}
+/* loader */
+.LoaderBG{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.loader {
+    border: 5px solid #f3f3f3;
+    /* Light grey */
+    border-top: 5px solid #000;
+    /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

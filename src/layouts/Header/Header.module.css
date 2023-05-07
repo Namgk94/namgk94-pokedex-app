@@ -1,0 +1,43 @@
+.headerBackground{
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 10px 0;
+}
+.navbarCollapseCustom{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbarNavCustom{
+    align-items: flex-end;
+}
+.navbarCollapseCustom .nav-item{
+    width: 200px;
+}
+.navbarCollapseCustom a{ 
+    width: 100%;
+    margin: 0 20px;
+    color: #333;
+    text-transform: capitalize;
+    text-rendering: optimizeSpeed;
+    text-decoration: none;
+}
+.navbarCollapseCustom a.active{
+    color: #0d6efd !important;
+}
+.navbar-toggler{
+    z-index: 10;
+}
+
+.customToggler{
+    border: none !important;
+    outline: none;
+}
+.customToggler span:hover{
+    color: #fff !important;
+    transition: 0.3s all;
+}
+.customToggler:focus{
+    border: none !important;
+    box-shadow: none !important
+}

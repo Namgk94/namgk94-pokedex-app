@@ -1,0 +1,50 @@
+.cardWrapper{
+    background-color: #fff;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cardImg{
+    min-width: 100%;
+    max-width: 100%;
+    height: 200px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+    object-fit: contain;
+}
+.cardImg{
+    margin-bottom: 10px;
+}
+.cardId{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.cardName{
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.cardType{
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-right: 8px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+.typesSection{
+    display: flex;
+}

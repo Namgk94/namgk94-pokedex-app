@@ -1,0 +1,46 @@
+.custom-arrow-slick{
+    width: 35px !important;
+    height: 35px !important;
+    background-color: rgba(103, 58, 183, 0.1) !important;
+    box-shadow: rgb(51 51 51) 0px 0px 2px 0px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.3s all linear;
+    z-index: 10;
+}
+@media screen and (max-width: 600px) {
+    .custom-arrow-slick{
+        display: none !important;
+    }
+}
+.slick-next:before, .slick-prev:before{
+    display: none !important;
+}
+.custom-arrow-slick:hover{
+    background-color: #7c9eb7 !important;
+}
+.custom-arrow-slick:hover .icon-btn{
+    color: #fff !important;
+}
+
+.custom-arrow-slick button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.custom-arrow-slick button .icon-btn{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%,-50%);
+}
+.custom-slick-next{
+    right: -45px !important;
+}
+.custom-slick-prev{
+    left: -45px !important;
+}
+

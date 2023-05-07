@@ -1,0 +1,58 @@
+.WrapperPokemon {
+    width: 100%;
+    height: 90vh;
+    min-height: 90vh;
+    background-color: var(--primary-color) !important;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.HeaderPokemon{
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.title>button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    position: relative;
+    top: -3px;
+}
+.title>button:hover{
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.SeeAllBtn a{
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #333;
+    background-color: transparent;
+    border-radius: 6px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    z-index: 10;
+    transition: 0.5s all;
+}
+.SeeAllBtn a:hover,
+.SeeAllBtn a:focus{
+    box-shadow: inset 100px 0 0 0 #000;
+    color: #fff;
+}
+

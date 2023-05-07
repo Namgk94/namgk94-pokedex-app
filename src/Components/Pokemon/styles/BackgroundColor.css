@@ -1,0 +1,78 @@
+.BGrock{
+    background-color: #a38c21;
+}
+.BGsteel{
+    background-color: #9eb7b8;
+    color: #fff;
+}
+.BGbug{
+    background-color: #729f3f;
+    color: #fff;
+}
+.BGgrass{
+    background-color: #9bcc50;
+}
+.BGflying{
+    background-color: #d4fffe;
+}
+.BGpoison{
+    background-color: #b97fc9;
+}
+.BGelectric{
+    background-color: #eed535;
+}
+.BGwater{
+    background-color: #4592c4;
+    color: #ffffff;
+}
+.BGnormal{
+    background-color: #a4acaf;
+}
+.BGfighting{
+    background-color: #d56723;
+    color: #fff2ea;
+}
+.BGfire{
+    background-color: #fd7d24;
+}
+.BGground{
+    background-color: #b38e82;
+}
+.BGpsychic{
+    background-color: #f366b9;
+    color: #fff;
+}
+.BGdragon{
+    background-color: #177258;
+    color: #bcffec;
+}
+.BGice{
+    background-color: #51c4e7;
+}
+.BGfairy{
+    background-color: #fdb9e9;
+}
+.BGghost{
+    background-color: #7b62a3;
+    color: #fff;
+}
+.BGdark{
+    background-color: #707070;
+    color: #fff;
+}
+.BGdarkgrey{
+    background-color: #a4a4a4 !important;
+}
+.text-light{
+    color: #fff;
+}
+.text-dark{
+    color: #333;
+}
+.BGwhitesmoke{
+    background-color: rgb(242,242,242);
+}
+
+.duration-200{
+    transition: 0.2s all linear;
+}
